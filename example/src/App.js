@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { ExampleComponent } from 'cschart'
+import CSchart from 'cschart'
+import '../../node_modules/bootstrap/dist/css/bootstrap.css'
 import 'cschart/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <CSchart text='Create React Library Example 😄' />
 }
 
 export default App

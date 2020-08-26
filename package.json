@@ -1,6 +1,6 @@
 {
-  "name": "@greenjimmy/cs-chart",
-  "version": "1.0.0",
+  "name": "@greenjimmy/cschart",
+  "version": "1.0.1",
   "description": "Made with create-react-library",
   "author": "GreenJimmy",
   "license": "MIT",
@@ -26,11 +26,29 @@
     "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
-    "predeploy": "cd example && yarn install && yarn run build",
+    "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "performance-now": "^2.1.0",
+    "popper.js": "^1.16.1",
+    "query-string": "^6.13.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "sass": "^1.26.10",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
